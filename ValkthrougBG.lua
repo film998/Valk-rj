@@ -31,7 +31,7 @@ local CONFIG = {
 	MaxDelay = 30, -- the delay doubles each try, up to this
 	MaxAttempts = 0, -- 0 = keep trying forever
 	ScheduledRejoin = true, -- also rejoin on a timer
-	ScheduledRejoinMinutes = 60,
+	ScheduledRejoinMinutes = 30,
 
 	-- UI
 	StartPosition = Vector2.new(24, 90),
